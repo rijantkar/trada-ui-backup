@@ -1,0 +1,5 @@
+{
+  "how_to_use_variables": "{variables} should be surrounded by curly brackets.",
+  "how_to_use_HTML": "Please only use simple HTML, which may include header, span, bold, or italics elements.",
+  "what_do_we_support": "Flat key-value structure. Please do not use nested objects as values."
+}

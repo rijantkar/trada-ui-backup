@@ -1,0 +1,8 @@
+id: 'trada-ui/productType'
+classification: public
+version: 1.0.0
+interface:
+  description: |
+    Renders typeahead dropdown for trada admin users.
+
+main: './ProductTypeWidget'

@@ -1,0 +1,3 @@
+{
+  "extends": ["@appfabric", "@appfabric:plugin"]
+}

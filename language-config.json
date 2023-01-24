@@ -1,0 +1,9 @@
+{
+  "id": "trada-ui",
+  "contacts": {
+    "dev": "rohit_ijantkar@intuit.com"
+  },
+  "resource-dirs": ["src/nls"],
+  "url": "https://github.intuit.com/saleschannelmgmt-storefront/trada-ui.git",
+  "enabled": false
+}

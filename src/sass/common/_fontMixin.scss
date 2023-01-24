@@ -1,0 +1,5 @@
+@mixin AvenirNextForIntuit($fontsize: null, $color: null, $weight: normal) {
+  font-size: #{$fontsize};
+  color: #{$color};
+  font-weight: #{$weight};
+}

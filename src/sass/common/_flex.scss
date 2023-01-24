@@ -1,0 +1,20 @@
+.flex-parent {
+  display: flex;
+}
+
+.flex--align-items-center {
+  align-items: center;
+}
+
+.flex--direction-column {
+  flex-direction: column;
+}
+
+.flex--direction-row {
+  flex-direction: row;
+}
+
+.flex--center-items {
+  align-items: center;
+  justify-content: center;
+}

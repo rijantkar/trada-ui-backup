@@ -1,0 +1,56 @@
+{
+  "id": "trada-ui",
+  "hasLayers": true,
+  "manifestVersion": "5",
+  "extensions": {
+    "routes": [
+      {
+        "path": "products",
+        "accessLevel": "GUEST",
+        "widget": {
+          "id": "trada-ui/products",
+          "appScreen": "shell"
+        }
+      },
+      {
+        "path": "productType",
+        "accessLevel": "GUEST",
+        "widget": {
+          "id": "trada-ui/productCategorizationEngine",
+          "appScreen": "shell"
+        }
+      }
+    ]
+  },
+  "widgets": {
+    "trada-ui/products": {
+      "1.0.0": {
+        "descriptor": "trada-ui/js/widgets/products/widget"
+      }
+    },
+    "trada-ui/productCategorizationEngine": {
+      "1.0.0": {
+        "descriptor": "trada-ui/js/widgets/productCategorizationEngine/widget"
+      }
+    }
+  },
+  "dependencies": {
+    "widgets": ["trada-ui/products@1.0.0", "trada-ui/productCategorizationEngine@1.0.0"]
+  },
+  "extendedProperties": {
+    "pageCount": 20,
+    "tradaProductsRoute": "/brand/api/products",
+    "algoliaConstants": {
+      "apiKey": "26beefe8f2ee31cf7e6062ba201c0847",
+      "devIndex": "dev_product_type_category_mapping",
+      "productionIndex": "product_type_category_mapping"
+    },
+    "googleSpreadsheetConstants" : {
+      "spreadsheetId": "1QBjCGgP_wW4gJXdBF0fVsbMUXH-f_plyH4l0xAspyjo",
+      "clientId": "21848732926-32mtd1tm236brqsdmlut8lp0fc1gmitq.apps.googleusercontent.com",
+      "apiKey": "AIzaSyCOFOUkQflM7GGtj3qMZOHldKlSLpIKWVA",
+      "scope": "https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile",
+      "discoveryDocs": ["https://sheets.googleapis.com/$discovery/rest?version=v4","https://people.googleapis.com/$discovery/rest?version=v1"]
+    }
+  }
+}

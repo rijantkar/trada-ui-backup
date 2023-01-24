@@ -1,0 +1,53 @@
+@import "src/sass/common/_fontMixin";
+
+.product-categorization-engine-header {
+  padding-bottom: 10px;
+}
+
+/*style to place content in center of page*/
+.main-intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* add padding on all sides by 20px */
+.intro-header {
+  padding: 20px;
+}
+
+/* place the component on right side of page */
+.sign-out-component {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-categorization-engine-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-profile-image{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.login-button-wrapper {
+  padding: 100px;
+}
+.google-logout-button {
+  alignSelf: flex-end;
+  margin: 20px;
+  height: 40px;
+}
+/*style to place each line in left of page*/
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+

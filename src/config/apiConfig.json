@@ -1,0 +1,30 @@
+{
+  "us": {
+    "default": {
+      "tradaUrl": "https://staging1.tradamarket.com/brand/api/products",
+      "productTypeSearchUrlHost": "https://www.WGEABW8VTJ-dsn.algolia.net"
+    },
+    "pre-prod": {
+      "tradaUrl": "https://dev1.tradamarket.com/brand/api/products",
+      "productTypeSearchUrlHost": "https://www.WGEABW8VTJ-dsn.algolia.net"
+    },
+    "prod": {
+      "tradaUrl": "https://tradamarket.com/brand/api/products",
+      "productTypeSearchUrlHost": "https://www.83ZWVPPSI3-dsn.algolia.net"
+    }
+  },
+  "au": {
+    "default": {
+      "tradaUrl": "https://staging1.trada.io/brand/api/products",
+      "productTypeSearchUrlHost": "https://www.WGEABW8VTJ-dsn.algolia.net"
+    },
+    "pre-prod": {
+      "tradaUrl": "https://dev1.trada.io/brand/api/products",
+      "productTypeSearchUrlHost": "https://www.WGEABW8VTJ-dsn.algolia.net"
+    },
+    "prod": {
+      "tradaUrl": "https://trada.io/brand/api/products",
+      "productTypeSearchUrlHost": "https://www.83ZWVPPSI3-dsn.algolia.net"
+    }
+  }
+}
